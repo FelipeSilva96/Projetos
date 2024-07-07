@@ -53,7 +53,7 @@ MATRIZ leMatriz()
 
 MATRIZ matrizTransposta(MATRIZ dados)
 {
-    dados.transposta = inicializaMatriz(dados.colunas, dados.linhas); // função de biblioteca propria
+    dados.transposta = inicializaMatriz(dados.colunas, dados.linhas); // função de biblioteca propria//
 
     for (int i = 0; i < dados.linhas; i++)
     {
