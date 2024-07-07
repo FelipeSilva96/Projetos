@@ -658,10 +658,7 @@ void metodo_10(void)
 int main(void) // main - inicio do funcionamento do programa
 {
     int opcao = 0;
-    printf("\n\t\tGEOMETRIA ANALITICA & ALGEBRA LINEAR - OPERACOES COM MATRIZES\n\n\n");
-    printf("Prof: Divane Dantas\n\n");
-    printf("Aluno: Felipe Pereira da Silva\n\n");
-
+    
     printf("\t\tVamos comecar selecionando abaixo o que deseja fazer!\n\n");
 
     do
