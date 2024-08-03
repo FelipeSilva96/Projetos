@@ -4,6 +4,13 @@
 #include <string.h>
 #include <math.h>
 
+
+/*
+    Funcao para converter um inteiro positivo em base 2, 4, 8 ou 16
+    Aceita dois parametros - @Param #1 int >= 0 // @Param #2 base p/ conversao
+    
+*/
+
 char *Convert(int x, int base)
 {
 
@@ -66,11 +73,11 @@ int main(void)
 {
     char *result = NULL;
 
-    for (int i = 0; i < 30; i++)
+    for (int i = 0; i < 50; i++) // Teste de 0 a 50
     {
 
         result = Convert(i, 16);
-        printf("\nBinario = %d -> Hexadecimal = %s", i, result);
+        printf("\nDecimal = %d -> Hexadecimal = %s", i, result);
     }
 
     free(result);
